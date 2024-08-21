@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px 0px 0px 700px;
+}
+
+.container {
+    display: flex;
+    margin: 50px 100px;
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    padding: 0px 20px 5px 60px;
+}
+
+.content button {
+    border: 3px solid rgb(17, 87, 121);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h3,
+p,
+button {
+    padding-bottom: 5px;
+}
+
+.pic{
+    opacity: 70%;
+}
+
+.pic img{
+    height: 370px;
+    width: 380px;
+}
+/* hover */
+
+.content button:hover{
+    cursor: pointer;
+}
+
+
+
+.pic:hover{
+    opacity: 100%;
+}
+
+/* Media quary */
+
+@media screen and (max-width: 1500px) {
+    h1 {
+        padding: 10px 0px 0px 600px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    h1 {
+        padding: 10px 0px 0px 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        padding: 10px 0px 0px 400px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    h1 {
+        padding: 10px 0px 0px 200px;
+    }
+}

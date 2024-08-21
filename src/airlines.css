@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(246, 247, 248);
+}
+
+.main .description{
+    max-width: 750px;
+    padding-left: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    margin:10px 50px;
+    background-color: white;
+    height: 260px;
+    width: 200px;
+    padding: 40px;
+}
+
+.card h2,h4,p{
+    padding-bottom: 15px;
+}
+
+.main .card button{
+    background-color: rgb(17, 87, 121);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.main .lastbtn{
+    background-color: transparent;
+    border: 2px solid rgb(17, 87, 121);
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin-left: 730px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card a{
+    color: white;
+    text-decoration: none;
+}
+
+/* hover */
+.main .card button:hover{
+    cursor: pointer;
+}
+
+.main .lastbtn:hover{
+    cursor: pointer;
+}
+
+/* media quary */
+
+@media screen and (max-width: 1500px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card{
+        margin:10px 20px;
+        background-color: white;
+        height: 260px;
+        width: 250px;
+        padding: 30px;
+    }
+    .main .lastbtn{
+        margin-left: 650px;
+    }
+    .main .description{
+        max-width: 750px;
+        padding-left: 300px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        margin:10px 50px;
+        background-color: white;
+        height: 260px;
+        width: 300px;
+        padding: 20px;
+    }
+    .main .lastbtn{
+        margin-left: 450px;
+    }
+    .main .description{
+        max-width: 700px;
+        padding-left: 250px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .card{
+        margin:10px 100px;
+        background-color: white;
+        height: 260px;
+        width: 350px;
+        padding: 20px;
+    }
+    .main .lastbtn{
+        margin-left: 300px;
+    }
+    .main .description{
+        max-width: 500px;
+        padding-left: 100px;
+    }
+}

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.last h1.text{
+    margin-top: 30px;
+}
+
+.last-card{
+    border: none;
+    height: 300px;
+    width: 350px;
+    padding-left: 50px;
+}
+
+.last-card span{
+    font-size: 64px;
+    padding: 30px 120px;
+}
+
+.last-card .text-title{
+    padding: 2px 40px;
+}
+
+.last-card p.text{
+    max-width: 220px;
+    margin: 10px 50px;
+    text-align: center;
+} 
+
+.last-cards{
+    display: flex;
+    margin: 20px 150px;
+}
+
+/* hover */
+
+.last-card span:hover{
+    cursor: pointer;
+}
+
+
+/* media quary */
+
+@media screen and (max-width: 1500px) {
+    .last-card{
+        padding-left: 40px;
+        height: 350px;
+    }
+    .last-cards{
+        margin: 20px 100px;
+    }    
+}
+
+@media screen and (max-width: 1250px) {
+    .last-card{
+        padding-left: 30px;
+        height: 400px;
+    }
+    .last-cards{
+        margin: 20px 50px;
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    .last-card{
+        padding-left: 20px;
+        height: 400px;
+    }
+    .last-cards{
+        margin: 20px 20px;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    .last-card{
+        padding-left: 20px;
+        height: 300px;
+    }
+    .last-cards{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.manali{
+    display: flex;
+}
+
+.manali1{
+    padding: 40px;
+}
+.manali1 img{
+    width: 500px;
+    border-radius: 10px;
+}
+.manali1 div.m-name{
+    padding-top: 10px;
+    font-size: 34px;
+    color: rgb(17, 87, 121);
+    font-weight: bold;
+}
+.manali1 p.m-name{
+    padding-top: 10px;
+    max-width: 500px;
+    color: rgb(17, 87, 121);
+    font-weight: 500;
+}
+
+p.include{
+    padding-top: 10px;
+    font-size: 34px;
+    color: rgb(17, 87, 121);
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+p.i-list ul li{
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.manali3{
+    margin-left: 150px;
+}
+
+.manali3 img{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+div.m-day{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p.days{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(17, 87, 121);
+    font-weight: bold;
+}
+
+p.day1,p.day2,p.day3{
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p.place{
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: rgb(17, 87, 121);
+}

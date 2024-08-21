@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    max-height: 100px;
+    display: flex;
+}
+
+.navbar .img {
+    padding: 20px 0px 20px 50px;
+}
+
+.navbar .menu {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: rgb(17, 87, 121);
+}
+
+.navbar .menu ul li {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .btn {
+    padding-left: 400px;
+    padding-top: 40px;
+}
+
+.navbar .btn button {
+    background-color: rgb(17, 87, 121);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+.box .login .login_filed {
+    padding: 10px 0px;
+    transition: .3s linear;
+    color: rgb(0, 157, 255);
+}
+
+.box .login button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 30px;
+    background: none;
+    font-weight: 600;
+    color: rgb(0, 157, 255);
+    border: 2px solid rgb(0, 157, 255);
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.box .login button:hover {
+    background: rgb(0, 157, 255);
+    color: #fff;
+}
+
+.modal {
+    z-index: 1;
+    position: fixed;
+    padding: 10px 50px;
+    background-color: rgba(255, 255, 255, 0.970);
+    height: 200px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+
+.close{
+    padding-left: 160px;
+}
+
+div.fr{
+    display: inline-flex;
+}
+
+/* media quary */
+
+@media screen and (max-width: 1500px) {
+    .navbar .menu {
+        padding-left: 150px;
+    }
+
+    .navbar .btn {
+        padding-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar .menu {
+        padding-left: 50px;
+    }
+
+    .navbar .btn {
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar .btn {
+        padding-left: 200px;
+    }
+
+    .navbar .img {
+        padding: 20px 0px 20px 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar .btn {
+        padding-left: 100px;
+    }
+
+    .navbar .img {
+        padding: 20px 0px 20px 100px;
+    }
+
+}

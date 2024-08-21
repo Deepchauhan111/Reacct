@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(17, 87, 121);
+    color: white;
+    display: flex;
+    padding: 50px;
+}
+
+.footer-logo {
+    padding: 10px 100px;
+}
+
+.footer-logo p {
+    max-width: 300px;
+    padding: 10px;
+}
+
+.footer-text {
+    padding: 10px 50px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+
+.footer-text h3 {
+    color: rgb(217, 149, 40);
+}
+
+/* midea quary */
+
+@media screen and (max-width: 1500px) {
+    .footer-logo {
+        padding: 10px 80px;
+    }
+
+    .footer-text {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .footer-logo {
+        padding: 10px 70px;
+    }
+
+    .footer-text {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-logo {
+        padding: 10px 40px;
+    }
+
+    .footer-text {
+        padding: 10px 20px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .footer-logo {
+        padding: 7px 10px;
+    }
+
+    .footer-text {
+        padding: 7px 10px;
+    }
+}
