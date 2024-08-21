@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0262101.css",
+    "main.js": "/static/js/main.09653e6c.js",
+    "static/js/453.5e560239.chunk.js": "/static/js/453.5e560239.chunk.js",
+    "static/media/main bg.png": "/static/media/main bg.23e894bd6e4f3ef484e3.png",
+    "static/media/goa.jpg": "/static/media/goa.afc27ce74a1752e66d67.jpg",
+    "static/media/manali.jpg": "/static/media/manali.a1806ef7da4464fd5d20.jpg",
+    "static/media/leh.jpg": "/static/media/leh.ddd3a1bc44f6c5851d00.jpg",
+    "static/media/taj.jpg": "/static/media/taj.ebd7f5baecf3ef3b4feb.jpg",
+    "static/media/kerela.jpg": "/static/media/kerela.deda70319b0e76539dd7.jpg",
+    "static/media/img4.png": "/static/media/img4.f009ee84829fc3c660bb.png",
+    "static/media/kucth.jpg": "/static/media/kucth.fccbfb5ab9456f9eff99.jpg",
+    "static/media/img1.png": "/static/media/img1.b3e4789e71adc31b28a7.png",
+    "static/media/img3.png": "/static/media/img3.1b5c4401010d82188124.png",
+    "static/media/img2.png": "/static/media/img2.52a80e49e01f1c662241.png",
+    "static/media/img5.png": "/static/media/img5.0a8b600087e2822b90f6.png",
+    "static/media/img6.png": "/static/media/img6.1cadec4ca0432dfb72bc.png",
+    "index.html": "/index.html",
+    "main.e0262101.css.map": "/static/css/main.e0262101.css.map",
+    "main.09653e6c.js.map": "/static/js/main.09653e6c.js.map",
+    "453.5e560239.chunk.js.map": "/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0262101.css",
+    "static/js/main.09653e6c.js"
+  ]
+}
